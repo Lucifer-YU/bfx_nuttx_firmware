@@ -1,0 +1,11 @@
+#
+# L3G4200D driver
+#
+
+MODULE_COMMAND	= l3g4200d
+
+SRCS = L3G4200D.cpp \
+		l3g4200d_main.cpp
+
+MODULE_STACKSIZE	= 4096
+

@@ -1,0 +1,11 @@
+#
+# HMC5883L driver
+#
+
+MODULE_COMMAND	= hmc5883l
+
+SRCS = HMC5883L.cpp \
+		hmc5883l_main.cpp
+
+MODULE_STACKSIZE	= 4096
+
