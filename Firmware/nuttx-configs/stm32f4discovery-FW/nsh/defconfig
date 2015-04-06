@@ -20,7 +20,6 @@ CONFIG_WINDOWS_CYGWIN=y
 #
 # Build Configuration
 #
-CONFIG_APPS_DIR="../apps"
 CONFIG_BUILD_FLAT=y
 # CONFIG_BUILD_2PASS is not set
 
@@ -1162,3 +1161,7 @@ CONFIG_READLINE_ECHO=y
 # Zmodem Commands
 #
 # CONFIG_SYSTEM_ZMODEM is not set
+
+# Application configuration
+
+CONFIG_APPS_DIR="../apps"

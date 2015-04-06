@@ -29,6 +29,15 @@ extern "C" __EXPORT int l3g4200d_main(int argc, char *argv[]);
 
 // static L3G4200D*__dev_ptr = nullptr;
 
+static int l3g4200d_start() {
+
+	return OK;
+}
+
+static void l3g4200d_usage(const char* reason) {
+
+}
+
 int l3g4200d_main(int argc, char *argv[]) {
 	if (argc < 1) {
 		l3g4200d_usage("missing command");
@@ -49,7 +58,7 @@ int l3g4200d_main(int argc, char *argv[]) {
 
 	// TODO
 
-	hmc5883l_usage("unrecognized command");
+	l3g4200d_usage("unrecognized command");
 
 	exit(1);
 }
